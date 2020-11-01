@@ -128,7 +128,7 @@ def update(request):
     #return JsonResponse({"Response": len(drama_episodes['episodes'])})
     my_2 = []
 
-    if len( drama_episodes['episodes']) > 12: 
+    if len( drama_episodes['episodes']) > 8: 
         rate_limit = len( drama_episodes['episodes']) - 2
     else:
         rate_limit = 0
