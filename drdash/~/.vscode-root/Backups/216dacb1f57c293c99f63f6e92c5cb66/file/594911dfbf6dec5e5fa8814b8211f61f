@@ -1,0 +1,11 @@
+file:///home/avatar/Desktop/drdash/drdash/mainapp/views.py {"mtime":1604085163530,"ctime":1604083434132,"size":1078,"etag":"35slf60f113o","orphaned":false}
+import sys, requests, json, base64, time, binascii, string, json, rncryptor, MySQLdb, os, re
+from django.shortcuts import render, redirect
+from django.http import JsonResponse
+
+
+
+def mainfunc(request):
+    """ We use this function to check if show existe on db or no"""
+
+    return JsonResponse({'Response': 200})

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+<section style="background-color:#131313;padding:20px;" class="container mt-5">
+<div class="myal">
+<span>
+    <div dir="ltr" class="myal-cover">
+        <a title="{{drama_info.drama_name}}" href="">
+            <img width="90" alt="{{drama_info.drama_name}}" src="{{drama_info.drama_cover_image_url}}" class="img-fluid" />
+        </a>
+    </div>
+    <div class="myal-info">
+        <a dir="ltr" title="{{drama_info.drama_name}}" href="">{{drama_info.drama_name}}</a>
+        <small>  {{drama_info.drama_type}}  |  {{drama_info.drama_status}}
+            <span dir="ltr">{{drama_info.drama_release_year}}</span>
+            <span class="bullet blue"></span>{{ drama_info.drama_id }}
+        </small>
+    </div>
+    <div style="margin-left:5px;" class="row justify-content-center mr-2">
+        <form class="text-center" action="" enctype="multipart/form-data" method="POST">
+            {% if drama_info.drama_status_in_db == 'FOUND' %}
+                P
+            {% else %}
+                <a style="border-radius: 0 !important;border: red solid 1px !important;font-size:14px !important;color: rgb(250,250,250)" href="{% url 'update' %}?name={{ drama_info.anime_name }}&stat=0&id={{ drama_info.anime_id }}" class="btn mt-2"><b>إضافة الدراما</b>  </a>
+            {% endif %}
+        </form>
+    </div>
+</span>
+<div style='color:rgb(250,250,250);' class="query-insert mt-5">
+    <h4 style="color:crimson;font-family: 'Roboto Condensed', sans-serif !important;" class="text-center">Insert New Drama Query</h4>
+<p style="padding:10px;font-family: 'Roboto Condensed', sans-serif !important;" class="mt-2" dir='ltr'>{{drama_info.insert_q}}</p>
+
+</div>
+</div>
+</section>
+{% endblock %}

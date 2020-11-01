@@ -1,0 +1,197 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/avatar/Desktop/asdash
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/urls.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/urls.py
+> git cat-file -s 82d4cf85b28de74e8d8b52ccc2e86f03ad59e2eb
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/mainapp/views.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/mainapp/views.py
+> git cat-file -s 41d1c211834ef60609ad0faaa88edbed06d99e89
+> git check-ignore -v -z --stdin
+> git show --textconv :asdash/mainapp/urls.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/mainapp/urls.py
+> git cat-file -s 9af06cf729dc751acad3c439ca8244ed7a0e3e44
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/mainapp/urls.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/mainapp/urls.py
+> git cat-file -s 9af06cf729dc751acad3c439ca8244ed7a0e3e44
+> git show --textconv :asdash/mainapp/views.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/mainapp/views.py
+> git cat-file -s 41d1c211834ef60609ad0faaa88edbed06d99e89
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/mainapp/views.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/mainapp/views.py
+> git cat-file -s 41d1c211834ef60609ad0faaa88edbed06d99e89
+> git show --textconv :asdash/asdash/urls.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/urls.py
+> git cat-file -s 82d4cf85b28de74e8d8b52ccc2e86f03ad59e2eb
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/urls.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/urls.py
+> git cat-file -s 82d4cf85b28de74e8d8b52ccc2e86f03ad59e2eb
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/mainapp/views.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/mainapp/views.py
+> git cat-file -s 41d1c211834ef60609ad0faaa88edbed06d99e89
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/mainapp/views.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/mainapp/views.py
+> git cat-file -s 41d1c211834ef60609ad0faaa88edbed06d99e89
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git show --textconv :asdash/mainapp/views.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/mainapp/views.py
+> git cat-file -s 41d1c211834ef60609ad0faaa88edbed06d99e89
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/avatar/Desktop/drama/dramaProject/project
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :maxslayer/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/drama/dramaProject/project/maxslayer/settings.py
+> git cat-file -s 7fe136c608a036be2a720b6f152d7803d7eb3819
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :asdash/asdash/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/asdash/asdash/asdash/settings.py
+> git cat-file -s fb560280a9abc7232e2069879ee1907ebb019cf5
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show --textconv :maxslayer/settings.py
+> git ls-files --stage -- /home/avatar/Desktop/drama/dramaProject/project/maxslayer/settings.py
+> git cat-file -s 7fe136c608a036be2a720b6f152d7803d7eb3819
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
