@@ -128,13 +128,13 @@ def update(request):
     #return JsonResponse({"Response": len(drama_episodes['episodes'])})
     my_2 = []
 
-    if len( drama_episodes['episodes']) > 5: 
+    if len( drama_episodes['episodes']) > 12: 
         rate_limit = len( drama_episodes['episodes']) - 2
     else:
         rate_limit = 0
     
     ep_list = []
-    for episode in drama_episodes['episodes'][rate_limit:]:
+    for episode in drama_episodes['episodes'][:]:
         my_dict = {}
         episode_id = episode['episode_id']
         episode_name = episode['episode_name']
