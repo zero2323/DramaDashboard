@@ -77,6 +77,7 @@ def insert_new(request):
          drama_country = drama_info['drama_country']
          drama_release_date = drama_info['drama_release_date']
          drama_description = drama_info['drama_description']
+         drama_description = drama_description.replace("'","").replace('"','')
          drama_cover_image = drama_info['drama_cover_image']
          drama_genres = drama_info['drama_genres']
          drama_genre_ids = drama_info['drama_genre_ids']
